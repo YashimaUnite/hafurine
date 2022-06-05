@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import { wishesRouter } from './wishes';
+import { wishesRouter } from './wish';
 
 export const createRouter = () => {
   const router = Router();
 
-  router.use('/wishes', wishesRouter());
+  router.use('/wish', wishesRouter());
 
   return router;
 };
