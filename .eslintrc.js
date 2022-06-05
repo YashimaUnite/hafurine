@@ -15,5 +15,6 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
   rules: {
+    // 循環複雑(complexity)の設定等こだわりがあれば入れてもよいが、慣れるまでは無し
   },
 };
