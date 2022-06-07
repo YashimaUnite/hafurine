@@ -1,22 +1,26 @@
 {
-  "compilerOptions": {
-    "target": "es2021",
-    "lib": ["es2021"],
-    "module": "commonjs",
-    "rootDir": "src",
-    "outDir": "build",
-    "esModuleInterop": true,
-    "strict": true,
-    "moduleResolution": "node",
-    "baseUrl": ".",
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noUncheckedIndexedAccess": true,
-    "skipLibCheck": true,
-  },
-  "include": [
-    "src/*/*.ts",
-    "src/*.ts"
-  ],
+   "compilerOptions": {
+
+      "lib":["es2021"],
+      "target": "es2021",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "rootDir": "src",
+      "outDir": "build",
+      "esModuleInterop": true,
+      "strict": true,
+      "baseUrl": ".",
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noUncheckedIndexedAccess": true,
+      "skipLibCheck": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true
+   },
+   "include": [
+      "src/*/*.ts",
+      "src/*.ts"
+   ],
 }
